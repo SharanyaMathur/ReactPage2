@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-left: 70px;
+    margin-right: 70px;
+    Add for the whole page  --> Check Optum.com for reference
+    */
+}
+
+.logo {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+}
+
+.topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.topbarLink a {
+    display: block;
+    padding: 1.5rem 1rem;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #316bbe;
+}
+.topbarLink a:hover {
+    color: #00396c;
+    text-decoration: underline;
+}
+.header__border {
+    display: block;
+    height: 4px;
+    width: 100%;
+    content: ' ';
+    background-image: linear-gradient(to right,purple,violet);
+}

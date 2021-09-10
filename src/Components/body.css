@@ -1,0 +1,31 @@
+.curved-div {
+    background: #b5baff;
+    position: relative;
+    margin: 0 auto 0;
+    
+    height: 550px;
+    /*width:1000px;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.curved-upper {
+    background: #b5baff;
+    position: relative;
+}
+
+.curved-div svg {
+    display: block;
+    width: fit-content;
+}
+
+.bodybg {
+    background-color: black;
+}
+
+.path2 {
+  vertical-align: baseline;
+}
+
+html, body {margin: 0; height: 100%; overflow: hidden}
